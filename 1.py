@@ -13,9 +13,6 @@ def reverse_words(line):
         reversed_words.append(word)
     return ' '.join(reversed_words)
 
-filename = 'text.txt'
-limit = 20
-
 lines_with_limit = read_file_with_limit()
 
 reversed_lines = map(reverse_words, lines_with_limit)
